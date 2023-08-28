@@ -1,0 +1,20 @@
+{
+    "name": "kulizh/currency",
+    "description": "Tool for currency exchange [beta]",
+    "version": "0.0.1",
+    "require-dev": {
+      "phpunit/phpunit": "7.*"
+    },
+    "autoload": {
+      "psr-4": {
+        "Currency\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Nikita Kulizhnikov",
+        "email": "mail@kulizh.ru",
+        "role": "Developer"
+      }
+    ]
+  }
