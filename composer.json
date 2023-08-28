@@ -1,7 +1,7 @@
 {
     "name": "kulizh/currency",
     "description": "Tool for currency exchange [beta]",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "require-dev": {
       "phpunit/phpunit": "7.*"
     },
@@ -10,6 +10,7 @@
         "Currency\\": "src/"
       }
     },
+    "license": "MIT",
     "authors": [
       {
         "name": "Nikita Kulizhnikov",
