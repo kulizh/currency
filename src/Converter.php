@@ -2,7 +2,7 @@
 namespace Currency;
 
 use Exception;
-use Currency\Helpers\ISOCOde;
+use Currency\Helpers\ISOCode;
 use Currency\Market\IMarket;
 
 final class Converter
@@ -16,7 +16,7 @@ final class Converter
 
     public function __construct()
     {
-        $this->isoCodeHandler = new ISOCOde();
+        $this->isoCodeHandler = new ISOCode();
     }
 
     public function from(string $from)

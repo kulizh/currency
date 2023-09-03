@@ -1,7 +1,7 @@
 <?php
 namespace Currency\Helpers;
 
-final class ISOCOde
+final class ISOCode
 {
     private $currencyCodesFile = '/../../data/currency-codes.csv';
     private $currencyHashMap = [];
