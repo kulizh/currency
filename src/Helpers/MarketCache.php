@@ -4,7 +4,7 @@ namespace Currency\Helpers;
 class MarketCache
 {
     private static $CACHE_LIFETIME = 86400; // 1 day
-    private static $CACHE_DIR = '/../data/market/cache/';
+    private static $CACHE_DIR = '/../../data/market/cache/';
 
     public static function read(string $url, string $name, bool $force = false): string
     {

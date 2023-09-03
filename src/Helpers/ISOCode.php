@@ -3,7 +3,7 @@ namespace Currency\Helpers;
 
 final class ISOCOde
 {
-    private $currencyCodesFile = '/../data/currency-codes.csv';
+    private $currencyCodesFile = '/../../data/currency-codes.csv';
     private $currencyHashMap = [];
 
     private $existing = [];

@@ -3,5 +3,5 @@
 vendor
 composer.lock
 
-/cache/
-!/cache/.gitkeep
+cache/
+!cache/.gitkeep
