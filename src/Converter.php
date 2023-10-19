@@ -21,7 +21,7 @@ final class Converter
 
     public function from(string $from)
     {
-        $this->from = $from;
+        $this->from = strtoupper($from);
 
         if (!$this->isoCodeHandler->exists($from))
         {
@@ -33,7 +33,7 @@ final class Converter
 
     public function to(string $to)
     {
-        $this->to = $to;
+        $this->to = strtoupper($to);
 
         if (!$this->isoCodeHandler->exists($to))
         {
