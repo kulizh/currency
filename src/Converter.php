@@ -62,6 +62,11 @@ final class Converter
 
     public function convert(float $value): float
     {
+        if (is_null($this->market))
+        {
+            throw new \Exception('Market is undefined. Use useMarket() method.');
+        }
+
         if ($this->from === $this->to)
         {
             return $value;

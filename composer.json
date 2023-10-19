@@ -1,7 +1,7 @@
 {
     "name": "kulizh/currency",
     "description": "Tool for currency exchange",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "require-dev": {
       "phpunit/phpunit": "7.*"
     },
