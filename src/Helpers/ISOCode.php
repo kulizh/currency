@@ -15,6 +15,8 @@ final class ISOCode
 
     public function exists(string $code): bool
     {
+        $code = strtoupper($code);
+        
         if (in_array($code, $this->existing))
         {
             return true;
