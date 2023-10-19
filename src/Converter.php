@@ -62,6 +62,11 @@ final class Converter
 
     public function convert(float $value): float
     {
+        if ($this->from === $this->to)
+        {
+            return $value;
+        }
+
         $currency_rate = $this->market->getRate($this->from, $this->to);
 
         return $currency_rate * $value;
